@@ -13,6 +13,7 @@ struct TestUser {
         let user = User.preview
         
         print(user)
+        #expect(  user.id == 583231)
     }
 
 }
