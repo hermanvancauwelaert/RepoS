@@ -11,20 +11,20 @@ import SwiftUI
 struct AvatarImage: View {
 	let url: URL?
 	let diameter: Double
-
-	private let border = Circle()
-		.stroke(Color.gray.opacity(0.4), lineWidth: 1)
-
+    let borderwidth: CGFloat = 1
+    
+    private var border: some View { Circle()
+            .stroke(Color.gray.opacity(0.4), lineWidth: borderwidth)
+    }
+    
 	var body: some View {
 		AsyncImage(url: url) { image in
 			image
-				.resizable()
-				.scaledToFill()
-				.frame(width: diameter, height: diameter)
-				.clipShape(Circle())
-				.overlay { border }
+                .resizable()
+                .circular(diameter: diameter, borderwidth: borderwidth)
+                .overlay(border)
 		} placeholder: {
-			border
+            border
 				.frame(width: diameter, height: diameter)
 				.overlay(ProgressView())
 		}

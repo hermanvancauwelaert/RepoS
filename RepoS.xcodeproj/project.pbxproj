@@ -26,6 +26,7 @@
 		1C4102DC2E58A35E0026066E /* User+debugDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102DA2E58A35E0026066E /* User+debugDescr.swift */; };
 		1C4103402E58AB390026066E /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41033F2E58AB390026066E /* ErrorMessages.swift */; };
 		1C4103442E58B4410026066E /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41033F2E58AB390026066E /* ErrorMessages.swift */; };
+		1C4103702E599A8A0026066E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41036F2E599A8A0026066E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		1C4102D42E5894170026066E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1C4102DA2E58A35E0026066E /* User+debugDescr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+debugDescr.swift"; sourceTree = "<group>"; };
 		1C41033F2E58AB390026066E /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		1C41036F2E599A8A0026066E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -126,6 +128,7 @@
 		1C4102A12E5867390026066E /* RepoS */ = {
 			isa = PBXGroup;
 			children = (
+				1C41036F2E599A8A0026066E /* Extensions.swift */,
 				1C41033F2E58AB390026066E /* ErrorMessages.swift */,
 				1C41029D2E5867390026066E /* Assets.xcassets */,
 				1C4102B22E586A6D0026066E /* AvatarImage.swift */,
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4102AB2E5869B50026066E /* Bundle+JSON.swift in Sources */,
+				1C4103702E599A8A0026066E /* Extensions.swift in Sources */,
 				1C4102D52E5894170026066E /* ProfileView.swift in Sources */,
 				1C4102AD2E5869CF0026066E /* String+URlTemplate.swift in Sources */,
 				1C4102B12E586A310026066E /* Preview.swift in Sources */,
