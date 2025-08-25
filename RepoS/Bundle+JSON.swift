@@ -24,4 +24,23 @@ extension Bundle {
             throw ErrorMessages.dataLoadingError(error)
         }
     }
+    
+    // FIXME: add throws
+    // M.N 2.2.5
+    // https://iosfoundations.com/lesson/scalable-networking-architecture-2-2/
+    
+    func readRepoFile(name: String) -> Repository {
+            let url = url(forResource: name, withExtension: "json")!
+            let data = try! Data(contentsOf: url)
+            return try! JSONDecoder().decode(Repository.self, from: data)
+    }
+
+    // FIXME: add throws
+    func readReadmeFile(name: String) -> Readme {
+            let url = url(forResource: name, withExtension: "json")!
+            let data = try! Data(contentsOf: url)
+            let decoder = JSONDecoder()
+            decoder.dataDecodingStrategy = .base64
+            return try! decoder.decode(Readme.self, from: data)
+    }
 }

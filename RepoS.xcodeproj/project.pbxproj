@@ -11,6 +11,16 @@
 		1C3E51D92E5C862700AB7CDC /* ProfileView+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */; };
 		1C3E51DB2E5C8DBB00AB7CDC /* octocat-full.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51DA2E5C8DBB00AB7CDC /* octocat-full.json */; };
 		1C3E51DC2E5C8DBB00AB7CDC /* octocat-full.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51DA2E5C8DBB00AB7CDC /* octocat-full.json */; };
+		1C3E51DE2E5C923D00AB7CDC /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51DD2E5C923D00AB7CDC /* Readme.swift */; };
+		1C3E51E02E5C964200AB7CDC /* spoon-knife.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51DF2E5C964200AB7CDC /* spoon-knife.json */; };
+		1C3E51E12E5C964200AB7CDC /* spoon-knife.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51DF2E5C964200AB7CDC /* spoon-knife.json */; };
+		1C3E51E32E5C964B00AB7CDC /* readme.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51E22E5C964B00AB7CDC /* readme.json */; };
+		1C3E51E42E5C964B00AB7CDC /* readme.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E51E22E5C964B00AB7CDC /* readme.json */; };
+		1C3E51E62E5C997900AB7CDC /* RepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */; };
+		1C3E51E82E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */; };
+		1C3E51EA2E5C9AF600AB7CDC /* RemoteToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */; };
+		1C3E51EC2E5C9B5700AB7CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */; };
+		1C3E51ED2E5C9B5700AB7CDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */; };
 		1C4102A22E5867390026066E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41029E2E5867390026066E /* ContentView.swift */; };
 		1C4102A32E5867390026066E /* RepoSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102A02E5867390026066E /* RepoSApp.swift */; };
 		1C4102A42E5867390026066E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C41029D2E5867390026066E /* Assets.xcassets */; };
@@ -59,6 +69,13 @@
 		1C3E51D62E5C85F000AB7CDC /* ProfileView+Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView+Header.swift"; sourceTree = "<group>"; };
 		1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileView+Info.swift"; sourceTree = "<group>"; };
 		1C3E51DA2E5C8DBB00AB7CDC /* octocat-full.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "octocat-full.json"; sourceTree = "<group>"; };
+		1C3E51DD2E5C923D00AB7CDC /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
+		1C3E51DF2E5C964200AB7CDC /* spoon-knife.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "spoon-knife.json"; sourceTree = "<group>"; };
+		1C3E51E22E5C964B00AB7CDC /* readme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = readme.json; sourceTree = "<group>"; };
+		1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryView.swift; sourceTree = "<group>"; };
+		1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoryView+ReadmeSection.swift"; sourceTree = "<group>"; };
+		1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteToggle.swift; sourceTree = "<group>"; };
+		1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1C4102722E58642C0026066E /* RepoS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C4102802E58642D0026066E /* RepoSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C41028A2E58642D0026066E /* RepoSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +141,10 @@
 		1C3E51D52E5C84F700AB7CDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */,
+				1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */,
+				1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */,
+				1C3E51DD2E5C923D00AB7CDC /* Readme.swift */,
 				1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */,
 				1C3E51D62E5C85F000AB7CDC /* ProfileView+Header.swift */,
 				1C4103BE2E5A07B30026066E /* UserRow.swift */,
@@ -159,6 +180,7 @@
 		1C4102A12E5867390026066E /* RepoS */ = {
 			isa = PBXGroup;
 			children = (
+				1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */,
 				1C3E51D52E5C84F700AB7CDC /* Views */,
 				1C4103C22E5A4E400026066E /* Text+Optional.swift */,
 				1C4103BC2E59FF3F0026066E /* ProminentButtonStyle.swift */,
@@ -182,6 +204,8 @@
 				1C4102B02E586A310026066E /* Preview.swift */,
 				1C4102AE2E586A080026066E /* octocat.json */,
 				1C3E51DA2E5C8DBB00AB7CDC /* octocat-full.json */,
+				1C3E51DF2E5C964200AB7CDC /* spoon-knife.json */,
+				1C3E51E22E5C964B00AB7CDC /* readme.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -304,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4102AF2E586A080026066E /* octocat.json in Resources */,
+				1C3E51E02E5C964200AB7CDC /* spoon-knife.json in Resources */,
+				1C3E51E42E5C964B00AB7CDC /* readme.json in Resources */,
 				1C3E51DC2E5C8DBB00AB7CDC /* octocat-full.json in Resources */,
 				1C4102A42E5867390026066E /* Assets.xcassets in Resources */,
 			);
@@ -314,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3E51DB2E5C8DBB00AB7CDC /* octocat-full.json in Resources */,
+				1C3E51E32E5C964B00AB7CDC /* readme.json in Resources */,
 				1C4102D82E58A1F60026066E /* octocat.json in Resources */,
+				1C3E51E12E5C964200AB7CDC /* spoon-knife.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,20 +363,25 @@
 				1C4103BD2E59FF3F0026066E /* ProminentButtonStyle.swift in Sources */,
 				1C4102AB2E5869B50026066E /* Bundle+JSON.swift in Sources */,
 				1C4103702E599A8A0026066E /* Extensions.swift in Sources */,
+				1C3E51E82E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift in Sources */,
 				1C3E51D92E5C862700AB7CDC /* ProfileView+Info.swift in Sources */,
 				1C4102D52E5894170026066E /* ProfileView.swift in Sources */,
 				1C4102AD2E5869CF0026066E /* String+URlTemplate.swift in Sources */,
 				1C4103C32E5A4E400026066E /* Text+Optional.swift in Sources */,
 				1C4102B12E586A310026066E /* Preview.swift in Sources */,
 				1C4102A22E5867390026066E /* ContentView.swift in Sources */,
+				1C3E51DE2E5C923D00AB7CDC /* Readme.swift in Sources */,
 				1C3E51D72E5C85F000AB7CDC /* ProfileView+Header.swift in Sources */,
 				1C4102DB2E58A35E0026066E /* User+debugDescr.swift in Sources */,
 				1C4103402E58AB390026066E /* ErrorMessages.swift in Sources */,
 				1C4102A32E5867390026066E /* RepoSApp.swift in Sources */,
+				1C3E51EA2E5C9AF600AB7CDC /* RemoteToggle.swift in Sources */,
 				1C4102A72E5869620026066E /* User.swift in Sources */,
 				1C4103C12E5A08420026066E /* FollowButton.swift in Sources */,
 				1C4103BF2E5A07B30026066E /* UserRow.swift in Sources */,
 				1C4102B32E586A6D0026066E /* AvatarImage.swift in Sources */,
+				1C3E51E62E5C997900AB7CDC /* RepositoryView.swift in Sources */,
+				1C3E51ED2E5C9B5700AB7CDC /* Constants.swift in Sources */,
 				1C4102A92E58697D0026066E /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3E51EC2E5C9B5700AB7CDC /* Constants.swift in Sources */,
 				1C4102DC2E58A35E0026066E /* User+debugDescr.swift in Sources */,
 				1C4102D62E58A1940026066E /* User.swift in Sources */,
 				1C4103442E58B4410026066E /* ErrorMessages.swift in Sources */,

@@ -11,7 +11,8 @@
 //  Repos
 //
 //  Created by Matteo Manferdini on 22/04/24.
-//
+// https://iosfoundations.com/lesson/scalable-networking-architecture-2-2/
+// M.G 2.2.5
 
 import Foundation
 
@@ -26,6 +27,8 @@ struct Repository {
 	let owner: User
 	let description: String?
 	let language: String?
+    var readme: Readme?
+    var isStarred: Bool?
 }
 
 extension Repository: Decodable {
