@@ -9,9 +9,22 @@ import Foundation
 
 extension User {
     
+    
     static let preview: Self = {
         do {
                 return try Bundle.main.readUserFile(name: "octocat")
+        } catch {
+            print("Error reading JSON file: \(error.localizedDescription)")
+            return User.previewHardCoded
+        }
+    }()
+    
+    // M.N 2.2.3
+    static let full: Self = {
+        do {
+                var full = try Bundle.main.readUserFile(name: "octocat-full")
+                full.isFollowed  = false
+                return full
         } catch {
             print("Error reading JSON file: \(error.localizedDescription)")
             return User.previewHardCoded
@@ -39,4 +52,19 @@ extension User {
     , followersCount: Optional(13192)
     , followingCount: Optional(9)
                     )
+}
+
+extension Repository {
+    static let preview: Self = Bundle.main.readRepoFile(name: "spoon-knife")
+
+    static let full: Self = {
+        var full = preview
+        full.isStarred = false
+        full.readme = .preview
+        return full
+    }()
+}
+
+extension Readme {
+    static let preview: Self = Bundle.main.readReadmeFile(name: "readme")
 }

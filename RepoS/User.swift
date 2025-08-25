@@ -33,6 +33,7 @@ struct User {
 	let repoCount: Int?
 	let followersCount: Int?
 	let followingCount: Int?
+    var isFollowed: Bool?
 }
 
 extension User: Decodable {
