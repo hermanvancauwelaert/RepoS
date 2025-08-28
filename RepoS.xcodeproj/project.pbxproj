@@ -143,18 +143,17 @@
 		1C3E51D52E5C84F700AB7CDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */,
-				1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */,
-				1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */,
-				1C3E51DD2E5C923D00AB7CDC /* Readme.swift */,
-				1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */,
-				1C3E51D62E5C85F000AB7CDC /* ProfileView+Header.swift */,
-				1C4103BE2E5A07B30026066E /* UserRow.swift */,
-				1C4103C02E5A08420026066E /* FollowButton.swift */,
-				1C4102D42E5894170026066E /* ProfileView.swift */,
 				1C4102B22E586A6D0026066E /* AvatarImage.swift */,
 				1C41029E2E5867390026066E /* ContentView.swift */,
+				1C4103C02E5A08420026066E /* FollowButton.swift */,
+				1C4102D42E5894170026066E /* ProfileView.swift */,
+				1C3E51D62E5C85F000AB7CDC /* ProfileView+Header.swift */,
+				1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */,
+				1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */,
 				1C4102A02E5867390026066E /* RepoSApp.swift */,
+				1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */,
+				1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */,
+				1C4103BE2E5A07B30026066E /* UserRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,20 +181,12 @@
 		1C4102A12E5867390026066E /* RepoS */ = {
 			isa = PBXGroup;
 			children = (
-				1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */,
+				1CBA46BD2E607964001E0ED3 /* Styling */,
+				1CBA46B42E604AD9001E0ED3 /* Model */,
 				1C3E51D52E5C84F700AB7CDC /* Views */,
-				1C4103C22E5A4E400026066E /* Text+Optional.swift */,
-				1C4103BC2E59FF3F0026066E /* ProminentButtonStyle.swift */,
-				1C41036F2E599A8A0026066E /* Extensions.swift */,
-				1C41033F2E58AB390026066E /* ErrorMessages.swift */,
 				1C41029D2E5867390026066E /* Assets.xcassets */,
-				1C4102AA2E5869B50026066E /* Bundle+JSON.swift */,
 				1C4102A52E5867680026066E /* Preview Content */,
 				1C41029F2E5867390026066E /* RepoS.entitlements */,
-				1C4102A82E58697D0026066E /* Repository.swift */,
-				1C4102AC2E5869CF0026066E /* String+URlTemplate.swift */,
-				1C4102A62E5869620026066E /* User.swift */,
-				1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */,
 			);
 			path = RepoS;
 			sourceTree = "<group>";
@@ -210,6 +201,31 @@
 				1C3E51E22E5C964B00AB7CDC /* readme.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CBA46B42E604AD9001E0ED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C4102AA2E5869B50026066E /* Bundle+JSON.swift */,
+				1C3E51EB2E5C9B5700AB7CDC /* Constants.swift */,
+				1C3E51DD2E5C923D00AB7CDC /* Readme.swift */,
+				1C4102A82E58697D0026066E /* Repository.swift */,
+				1C4102A62E5869620026066E /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CBA46BD2E607964001E0ED3 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				1C41033F2E58AB390026066E /* ErrorMessages.swift */,
+				1C41036F2E599A8A0026066E /* Extensions.swift */,
+				1C4103BC2E59FF3F0026066E /* ProminentButtonStyle.swift */,
+				1C4102AC2E5869CF0026066E /* String+URlTemplate.swift */,
+				1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */,
+				1C4103C22E5A4E400026066E /* Text+Optional.swift */,
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
