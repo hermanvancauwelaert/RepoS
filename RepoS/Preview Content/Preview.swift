@@ -65,6 +65,7 @@ extension Repository {
     }()
 }
 
+// https://iosfoundations.com/lesson/scalable-networking-architecture-2-2/
 extension Readme {
     static let preview: Self = Bundle.main.readReadmeFile(name: "readme")
 }

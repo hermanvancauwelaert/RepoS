@@ -20,6 +20,7 @@ extension ProfileView {
                     .font(.title3)
                     .foregroundStyle(.secondary)
                 Text(optional: bio)
+                    .font(.callout)
             }
         }
     }

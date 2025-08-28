@@ -20,8 +20,8 @@ struct UserRow: View {
                 HStack(spacing : 8) {
                     AvatarImage(url: user.avatarURL, diameter: 80)
                     VStack(alignment: .leading) {
-                        Text(optional: user.name).font(.headline)
-                        Text(user.location ?? "").font(.caption)
+                        Text(optional: user.name).bold()
+                        Text(user.login).font(.callout).foregroundStyle(.secondary)
                     }.frame(maxWidth: 150, alignment: .leading)
                 }
                 

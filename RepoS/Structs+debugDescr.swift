@@ -26,3 +26,7 @@ extension MyDebugOutput {
 extension User: MyDebugOutput {
     
 }
+
+extension Readme: MyDebugOutput {
+    
+}

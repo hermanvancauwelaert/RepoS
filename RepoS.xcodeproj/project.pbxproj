@@ -36,8 +36,8 @@
 		1C4102D72E58A1B30026066E /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102B02E586A310026066E /* Preview.swift */; };
 		1C4102D82E58A1F60026066E /* octocat.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C4102AE2E586A080026066E /* octocat.json */; };
 		1C4102D92E58A2190026066E /* Bundle+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102AA2E5869B50026066E /* Bundle+JSON.swift */; };
-		1C4102DB2E58A35E0026066E /* User+debugDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102DA2E58A35E0026066E /* User+debugDescr.swift */; };
-		1C4102DC2E58A35E0026066E /* User+debugDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102DA2E58A35E0026066E /* User+debugDescr.swift */; };
+		1C4102DB2E58A35E0026066E /* Structs+debugDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */; };
+		1C4102DC2E58A35E0026066E /* Structs+debugDescr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */; };
 		1C4103402E58AB390026066E /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41033F2E58AB390026066E /* ErrorMessages.swift */; };
 		1C4103442E58B4410026066E /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41033F2E58AB390026066E /* ErrorMessages.swift */; };
 		1C4103702E599A8A0026066E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C41036F2E599A8A0026066E /* Extensions.swift */; };
@@ -46,6 +46,8 @@
 		1C4103C12E5A08420026066E /* FollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4103C02E5A08420026066E /* FollowButton.swift */; };
 		1C4103C32E5A4E400026066E /* Text+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4103C22E5A4E400026066E /* Text+Optional.swift */; };
 		1C4103C62E5A53830026066E /* Text+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4103C22E5A4E400026066E /* Text+Optional.swift */; };
+		1CBA46B22E5ECA55001E0ED3 /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E51DD2E5C923D00AB7CDC /* Readme.swift */; };
+		1CBA46B32E5ECB56001E0ED3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102A82E58697D0026066E /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +93,7 @@
 		1C4102B02E586A310026066E /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		1C4102B22E586A6D0026066E /* AvatarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImage.swift; sourceTree = "<group>"; };
 		1C4102D42E5894170026066E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		1C4102DA2E58A35E0026066E /* User+debugDescr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+debugDescr.swift"; sourceTree = "<group>"; };
+		1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Structs+debugDescr.swift"; sourceTree = "<group>"; };
 		1C41033F2E58AB390026066E /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
 		1C41036F2E599A8A0026066E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1C4103BC2E59FF3F0026066E /* ProminentButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProminentButtonStyle.swift; sourceTree = "<group>"; };
@@ -193,7 +195,7 @@
 				1C4102A82E58697D0026066E /* Repository.swift */,
 				1C4102AC2E5869CF0026066E /* String+URlTemplate.swift */,
 				1C4102A62E5869620026066E /* User.swift */,
-				1C4102DA2E58A35E0026066E /* User+debugDescr.swift */,
+				1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */,
 			);
 			path = RepoS;
 			sourceTree = "<group>";
@@ -372,7 +374,7 @@
 				1C4102A22E5867390026066E /* ContentView.swift in Sources */,
 				1C3E51DE2E5C923D00AB7CDC /* Readme.swift in Sources */,
 				1C3E51D72E5C85F000AB7CDC /* ProfileView+Header.swift in Sources */,
-				1C4102DB2E58A35E0026066E /* User+debugDescr.swift in Sources */,
+				1C4102DB2E58A35E0026066E /* Structs+debugDescr.swift in Sources */,
 				1C4103402E58AB390026066E /* ErrorMessages.swift in Sources */,
 				1C4102A32E5867390026066E /* RepoSApp.swift in Sources */,
 				1C3E51EA2E5C9AF600AB7CDC /* RemoteToggle.swift in Sources */,
@@ -391,9 +393,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3E51EC2E5C9B5700AB7CDC /* Constants.swift in Sources */,
-				1C4102DC2E58A35E0026066E /* User+debugDescr.swift in Sources */,
+				1C4102DC2E58A35E0026066E /* Structs+debugDescr.swift in Sources */,
 				1C4102D62E58A1940026066E /* User.swift in Sources */,
 				1C4103442E58B4410026066E /* ErrorMessages.swift in Sources */,
+				1CBA46B32E5ECB56001E0ED3 /* Repository.swift in Sources */,
+				1CBA46B22E5ECA55001E0ED3 /* Readme.swift in Sources */,
 				1C4103C62E5A53830026066E /* Text+Optional.swift in Sources */,
 				1C4102D72E58A1B30026066E /* Preview.swift in Sources */,
 				1C4102D92E58A2190026066E /* Bundle+JSON.swift in Sources */,

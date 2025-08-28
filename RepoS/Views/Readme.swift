@@ -3,7 +3,9 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
-//  M.N 2.2
+//  M.N 2.2.5
+// https://iosfoundations.com/lesson/scalable-networking-architecture-2-2/
+
 
 import SwiftUI
 
