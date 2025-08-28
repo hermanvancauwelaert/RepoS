@@ -70,3 +70,12 @@ extension RemoteToggle {
 	}
 	.padding()
 }
+
+#Preview {
+    VStack {
+        RemoteToggle(onTitle: "Unfollow", offTitle: "Follow", systemImage: "person", isOn: nil, action: {})
+        RemoteToggle(onTitle: "Unfollow", offTitle: "Follow", systemImage: "person", isOn: false, action: {})
+        RemoteToggle(onTitle: "Unfollow", offTitle: "Follow", systemImage: "person", isOn: true, action: {})
+    }
+    .padding()
+}
