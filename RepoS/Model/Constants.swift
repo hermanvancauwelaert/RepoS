@@ -14,6 +14,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Symbols {
 	static let followers = "figure.2.arms.open"
@@ -22,3 +23,27 @@ struct Symbols {
 	static let stars = "star"
 	static let forks = "arrow.triangle.branch"
 }
+
+extension Symbols {
+    static let all: [String] = [
+        followers,
+        following,
+        repos,
+        stars,
+        forks
+    ]
+}
+
+#Preview {
+    
+    VStack {
+        List {
+            
+            ForEach(Symbols.all, id: \.self) { symbol in
+                Image(systemName: symbol)
+            }
+        }.listStyle(.plain)
+    }
+    
+}
+
