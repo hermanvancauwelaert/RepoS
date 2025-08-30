@@ -34,6 +34,7 @@ struct User {
 	let followersCount: Int?
 	let followingCount: Int?
     var isFollowed: Bool?
+    var starCount: Int?
 }
 
 extension User: Decodable {

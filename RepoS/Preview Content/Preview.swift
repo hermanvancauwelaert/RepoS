@@ -19,11 +19,13 @@ extension User {
         }
     }()
     
-    // M.N 2.2.3
+    // M.N - 2.2.3
+    // M.N - 2.4.3. Creating custom SwiftUI containers with generic view builders
     static let full: Self = {
         do {
             var full: User = try Bundle.main.readJSONFile(name: "octocat-full")
                 full.isFollowed  = false
+            full.starCount  = 17
                 return full
         } catch {
             print("Error reading JSON file: \(error.localizedDescription)")

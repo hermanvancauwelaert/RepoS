@@ -50,8 +50,8 @@
 		1CBA46B32E5ECB56001E0ED3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4102A82E58697D0026066E /* Repository.swift */; };
 		1CBA46BF2E616409001E0ED3 /* JSONDecoder+GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46BE2E616409001E0ED3 /* JSONDecoder+GitHub.swift */; };
 		1CBA46C02E616409001E0ED3 /* JSONDecoder+GitHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46BE2E616409001E0ED3 /* JSONDecoder+GitHub.swift */; };
-		1CBA46C52E63204C001E0ED3 /* Label+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46C42E63204C001E0ED3 /* Label+Count.swift */; };
-		1CBA46C62E63204C001E0ED3 /* Label+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46C42E63204C001E0ED3 /* Label+Count.swift */; };
+		1CBA46C82E63324B001E0ED3 /* Label+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46C72E63324B001E0ED3 /* Label+Count.swift */; };
+		1CBA46C92E63324B001E0ED3 /* Label+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA46C72E63324B001E0ED3 /* Label+Count.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,7 +105,7 @@
 		1C4103C02E5A08420026066E /* FollowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowButton.swift; sourceTree = "<group>"; };
 		1C4103C22E5A4E400026066E /* Text+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Optional.swift"; sourceTree = "<group>"; };
 		1CBA46BE2E616409001E0ED3 /* JSONDecoder+GitHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+GitHub.swift"; sourceTree = "<group>"; };
-		1CBA46C42E63204C001E0ED3 /* Label+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Count.swift"; sourceTree = "<group>"; };
+		1CBA46C72E63324B001E0ED3 /* Label+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Count.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -231,7 +231,7 @@
 				1C4102AC2E5869CF0026066E /* String+URlTemplate.swift */,
 				1C4102DA2E58A35E0026066E /* Structs+debugDescr.swift */,
 				1C4103C22E5A4E400026066E /* Text+Optional.swift */,
-				1CBA46C42E63204C001E0ED3 /* Label+Count.swift */,
+				1CBA46C72E63324B001E0ED3 /* Label+Count.swift */,
 			);
 			path = Styling;
 			sourceTree = "<group>";
@@ -394,7 +394,7 @@
 				1C4102D52E5894170026066E /* ProfileView.swift in Sources */,
 				1C4102AD2E5869CF0026066E /* String+URlTemplate.swift in Sources */,
 				1C4103C32E5A4E400026066E /* Text+Optional.swift in Sources */,
-				1CBA46C62E63204C001E0ED3 /* Label+Count.swift in Sources */,
+				1CBA46C82E63324B001E0ED3 /* Label+Count.swift in Sources */,
 				1C4102B12E586A310026066E /* Preview.swift in Sources */,
 				1C4102A22E5867390026066E /* ContentView.swift in Sources */,
 				1C3E51DE2E5C923D00AB7CDC /* Readme.swift in Sources */,
@@ -418,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBA46C52E63204C001E0ED3 /* Label+Count.swift in Sources */,
+				1CBA46C92E63324B001E0ED3 /* Label+Count.swift in Sources */,
 				1CBA46C02E616409001E0ED3 /* JSONDecoder+GitHub.swift in Sources */,
 				1C3E51EC2E5C9B5700AB7CDC /* Constants.swift in Sources */,
 				1C4102DC2E58A35E0026066E /* Structs+debugDescr.swift in Sources */,

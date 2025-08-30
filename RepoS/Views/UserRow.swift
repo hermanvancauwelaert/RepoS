@@ -26,8 +26,24 @@ struct UserRow: View {
                 }
                 
             }
+            
             Text(optional: user.bio)
                 .font(.subheadline)
+            
+            HStack {
+                Group {
+                    Label(count: user.followersCount, systemImage: Symbols.followers)
+                    Label(count: user.followingCount, systemImage: Symbols.following)
+                    Label(count: user.repoCount, systemImage: Symbols.repos)
+                    Label(count: user.starCount, systemImage: Symbols.stars)
+                    
+                }.fixedSize()
+                .containerRelativeFrame(.horizontal, count:4, spacing:24, alignment:.leading )
+                .monospacedDigit()
+            }
+            .labelStyle(.titleAndIcon)
+            .foregroundStyle(.secondary)
+            .font(.subheadline)
             
         }
     }
