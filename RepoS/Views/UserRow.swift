@@ -33,11 +33,12 @@ struct UserRow: View {
     }
 }
 
+// https://iosfoundations.com/lesson/scalable-networking-architecture-2-4/
 #Preview {
     List{
         UserRow(user: .full)
         UserRow(user: .preview)
-        UserRow(user: .previewHardCoded)
+        UserRow(user: .default)
     }
     .listStyle(.plain)
     
