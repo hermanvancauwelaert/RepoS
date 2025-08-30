@@ -29,21 +29,14 @@ struct UserRow: View {
             
             Text(optional: user.bio)
                 .font(.subheadline)
-            
-            HStack {
-                Group {
+            // 2.4.3. Creating custom SwiftUI containers with generic view builders
+            LineGrid(count: 4, spacing: 16) {
                     Label(count: user.followersCount, systemImage: Symbols.followers)
                     Label(count: user.followingCount, systemImage: Symbols.following)
                     Label(count: user.repoCount, systemImage: Symbols.repos)
                     Label(count: user.starCount, systemImage: Symbols.stars)
                     
-                }.fixedSize()
-                .containerRelativeFrame(.horizontal, count:4, spacing:24, alignment:.leading )
-                .monospacedDigit()
-            }
-            .labelStyle(.titleAndIcon)
-            .foregroundStyle(.secondary)
-            .font(.subheadline)
+                }
             
         }
     }

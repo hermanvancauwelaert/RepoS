@@ -22,6 +22,7 @@ struct Symbols {
 	static let repos = "book.closed"
 	static let stars = "star"
 	static let forks = "arrow.triangle.branch"
+    static let language = "textformat"
 }
 
 extension Symbols {
@@ -30,7 +31,8 @@ extension Symbols {
         following,
         repos,
         stars,
-        forks
+        forks,
+        language
     ]
 }
 
