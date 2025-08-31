@@ -154,7 +154,6 @@
 		1C3E51D52E5C84F700AB7CDC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1CBA46CE2E63461C001E0ED3 /* RepositoryRow.swift */,
 				1C4102B22E586A6D0026066E /* AvatarImage.swift */,
 				1C41029E2E5867390026066E /* ContentView.swift */,
 				1C4103C02E5A08420026066E /* FollowButton.swift */,
@@ -163,6 +162,7 @@
 				1C3E51D82E5C862700AB7CDC /* ProfileView+Info.swift */,
 				1C3E51E92E5C9AF600AB7CDC /* RemoteToggle.swift */,
 				1C4102A02E5867390026066E /* RepoSApp.swift */,
+				1CBA46CE2E63461C001E0ED3 /* RepositoryRow.swift */,
 				1C3E51E52E5C997900AB7CDC /* RepositoryView.swift */,
 				1C3E51E72E5C9AAC00AB7CDC /* RepositoryView+ReadmeSection.swift */,
 				1C4103BE2E5A07B30026066E /* UserRow.swift */,

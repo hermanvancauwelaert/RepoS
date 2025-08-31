@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+@available(*, deprecated, message: "Use NewStruct instead")
 struct FollowButton : View {
     let action: () -> Void
     
@@ -19,4 +19,8 @@ struct FollowButton : View {
         .buttonStyle(.prominent)
         .controlSize(.large)
     }
+}
+
+#Preview {
+    //FollowButton(action: { })
 }
