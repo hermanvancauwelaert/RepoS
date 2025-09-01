@@ -16,7 +16,8 @@ struct ProfileView: View {
                 
                 Header(user: user)
                 ProfileView.Info( user: user)
-                FollowButton {}
+                RemoteToggle(role: .follow, isOn: user.isFollowed, action: {})
+                    .controlSize(.large)
                     
             }
         }
@@ -27,6 +28,6 @@ struct ProfileView: View {
 }
 
 #Preview {
-    ProfileView(user: .preview)
+    ProfileView(user: .full)
 }
 
