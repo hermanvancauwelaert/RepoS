@@ -13,8 +13,9 @@ struct UserRow: View {
         
         VStack {
             LabeledContent {
-                FollowButton(action: {})
-                    .frame(width: 120)
+                // TODO: issOn + Action
+                RemoteToggle(role: .star, isOn: true, action: {})
+                    .frame(maxWidth: 120)
                     .font(.subheadline)
             } label: {
                 HStack(spacing : 8) {

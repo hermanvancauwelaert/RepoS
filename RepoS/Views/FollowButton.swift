@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@available(*, deprecated, message: "Use NewStruct instead")
+@available(*, deprecated, message: "Use RemoteToggle instead")
 struct FollowButton : View {
     let action: () -> Void
     
