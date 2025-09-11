@@ -4,7 +4,7 @@
 //
 //  Created by Herman VAN CAUWELAERT on 23/08/2025.
 //  2.2.4. High-level and low-level modules in the view layer
-
+// [ixovtSwl] [EXTENSION] [TEXT] [OPTIONAL]
 
 import SwiftUI
 

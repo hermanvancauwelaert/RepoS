@@ -3,15 +3,8 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
-//
+// [5q8uHzX7] 
 
-
-//
-//  RepositoryView.swift
-//  Repos
-//
-//  Created by Matteo Manferdini on 22/04/24.
-//
 
 import SwiftUI
 import WebKit

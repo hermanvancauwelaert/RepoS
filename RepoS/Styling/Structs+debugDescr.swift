@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
-//
+// [2ZqvyVrJ]  [Structs+debugDesc] [DEBUG] [CustomDebugstringConvertible] [EXTENSION] [User] [ReadMe]
 
 import Foundation
 

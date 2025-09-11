@@ -6,7 +6,10 @@
 //
 
 // https://iosfoundations.com/lesson/scalable-networking-architecture-2-2/
-// M.G 2.2.5
+// [M.G 2.2.5]
+// [iHqFOpsZ] 
+
+// [M.N 1.4] [JSON] [User]
 
 import Foundation
 

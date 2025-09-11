@@ -4,6 +4,7 @@
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
 //
+// [329e5SZy] [M.N 1.4] [M.N 1.4.3] [JSON] [User] [OPTIONAL] [LINK] [SRP] [DECOUPLING] [COHESION]
 
 import SwiftUI
 

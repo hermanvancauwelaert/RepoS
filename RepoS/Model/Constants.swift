@@ -3,15 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
-//
-
-
-//
-//  Constants.swift
-//  Repos
-//
-//  Created by Matteo Manferdini on 05/06/24.
-//
+// [6l4LWfzc] [Constants] [Symbols] [ALL]
 
 import Foundation
 import SwiftUI

@@ -3,7 +3,9 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 23/08/2025.
-//
+// [ZOFyAE7x] Coffee[EXTENSION] [CIRCULAR] [IMAGE] [FUNC]
+// [.IMAGE] [.resizable()] [.scaledToFill()] [.frame(width: diameter, height: diameter)] [.clipShape(Circle())]
+
 
 import SwiftUI
 

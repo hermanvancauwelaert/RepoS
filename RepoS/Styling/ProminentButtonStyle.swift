@@ -4,6 +4,7 @@
 //
 //  Created by Herman VAN CAUWELAERT on 23/08/2025.
 //
+// [UhQNIAGT] [M.N 2.2] [M.N 2.2.1] [EXTENSION] [WHERE] [PROFILEVIEW] [PRIMITIFBUTTONSTYLE] [BUTTON] [MODIFIER] [STYLE] [prominent] [ProminentButtonStyle]
 
 import SwiftUI
 

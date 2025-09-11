@@ -3,7 +3,7 @@
 //  LifeHackS
 //
 //  Created by Herman VAN CAUWELAERT on 19/08/2025.
-//
+// [AtyJ7t0I] [ErrorMessages] [LocalizedError] [ErrorDescription]
 
 import Foundation
 

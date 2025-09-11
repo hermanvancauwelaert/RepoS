@@ -5,13 +5,7 @@
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
 //
 
-
-//
-//  User.swift
-//  Repos
-//
-//  Created by Matteo Manferdini on 21/04/24.
-//
+// [iHqFOpsZ]  [M.N 1.4] [M.N 2.4.3.1] [JSON] [User] 
 
 import Foundation
 

@@ -5,6 +5,8 @@
 //  Created by Herman VAN CAUWELAERT on 30/08/2025.
 //
 // https://iosfoundations.com/lesson/scalable-networking-architecture-2-4/
+// [BFjqN0TG]  [EXTENSION] [LABEL] [WHERE] [TITLE] [Title] [Icon]
+// Label("README", systemImage: "book")
 
 import Foundation
 import SwiftUI

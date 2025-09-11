@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 30/08/2025.
-//
+// [AtyJ7t0I] [M.N - 2.4.3.2] [LineGrid] [VIEWBUILDER] [GROUP] [.containerRelativeFrame] [LABELSTYLE] [.titleAndIcon] [.monospacedDigit()] [Content] ->[RepositoryRow] ->[UserRow][AtyJ7t0I]
 
 import SwiftUI
 
@@ -47,3 +47,18 @@ struct LineGrid<Content: View>: View {
     }.listStyle(.plain)
 }
 
+
+#Preview("Kolommen") {
+    Text("LineGrid(count: 3, spacing: 24)")
+        .font(.system(.body, design: .monospaced))
+        .padding(.vertical)
+    List {
+        LineGrid(count: 3, spacing: 24) {
+            Label("kolom 1", systemImage: "umbrella")
+            Label("kolom 2", systemImage: "gyroscope")
+            Label("kolom 3", systemImage: "carrot")
+        }
+        
+    }.listStyle(.plain)
+    
+}
