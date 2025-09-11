@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
-// [6l4LWfzc] [Constants] [Symbols] [ALL]
+// [6l4LWfzc] [Constants] [Symbols] [ALL] [M.N 2.2.6.4]
 
 import Foundation
 import SwiftUI

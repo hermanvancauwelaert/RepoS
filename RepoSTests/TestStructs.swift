@@ -3,7 +3,8 @@
 //  RepoSTests
 //
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
-//
+// [iHqFOpsZ]  [M.N 1.4] [M.N 2.4.3.1] [JSON] [User] 
+//  [M.N 2.2.5] [M.N 2.2.6.1] [7Zm2P1wu] [ReadMe] [Data] [MARKDOWN] [AttributedString] [PROTOCOL] [DECODABLE] [JSON]
 
 import Testing
 

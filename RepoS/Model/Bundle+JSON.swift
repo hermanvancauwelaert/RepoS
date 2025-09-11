@@ -5,7 +5,7 @@
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
 //
 // https://iosfoundations.com/lesson/scalable-networking-architecture-2-4/
-// [TZI4Nsp4] [M.N 1.4] [JSON]  [BUNDLE] [ERROR] [EXTENSION] [User]
+// [TZI4Nsp4] [M.N 1.4]  [M.N - 2.4] [JSON]  [BUNDLE] [ERROR] [EXTENSION] [User]
 
 
 

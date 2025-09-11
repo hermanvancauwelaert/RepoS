@@ -5,7 +5,7 @@
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
 //
 // https://iosfoundations.com/lesson/scalable-networking-architecture-2-4/
-// [QFuhC3aB] [M.N 1.4] [M.N 1.4.5]  [JSON]  [BUNDLE] [ERROR] [EXTENSION] [User] [ERROR] [STATIC]
+// [QFuhC3aB] [M.N 1.4] [M.N 1.4.5] [M.N 2.2.5] [JSON]  [BUNDLE] [ERROR] [EXTENSION] [User] [ERROR] [STATIC]
 
 import Foundation
 

@@ -19,7 +19,8 @@ struct TestTextOptional {
         #expect(  Text(optional: "Hello") != nil)
         
     }
-    
+    // [BFjqN0TG] [M.N 2.4.2.1] [EXTENSION] [LABEL] [WHERE] [TITLE] [Title] [Icon]
+    // Label(count: 5, systemImage: "book")
     @Test("Label init(count:systemImage:) builds expected title")
     func testLabelCountInit() throws {
         let label = Label(count: 5, systemImage: "star")

@@ -4,7 +4,7 @@
 //
 //  Created by Herman VAN CAUWELAERT on 22/08/2025.
 //
-// [XxdaVflN] [M.N 1.4]  [M.N 1.4.5] [JSON]  [BUNDLE] [ERROR] [EXTENSION] [User] [ERROR] [STATIC] [PROFILEVIEW] [PrintNameInLog] [MODIFIER] [STYLE] [prominent] [RemoteToggle]
+// [XxdaVflN] [M.N 1.4]  [M.N 1.4.5] [M.N 2.2.6.7] [EXTENSION] [User] [ERROR] [STATIC] [ProfileView] [RemoteToggle] [Header]
 
 import Foundation
 import SwiftUI
