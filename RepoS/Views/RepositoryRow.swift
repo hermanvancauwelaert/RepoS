@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 30/08/2025.
-// [lORtM9We] [M.N 2.4.3.3] [Repository] [RemoteToggle] [LineGrid]
+// [lORtM9We] [M.N 2.4.3.3] [RepositoryRow] [RemoteToggle] [LineGrid]
 import SwiftUI
 
 
