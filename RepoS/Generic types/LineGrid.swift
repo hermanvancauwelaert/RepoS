@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 30/08/2025.
-// [AtyJ7t0I] [M.N - 2.4.3.2] [LineGrid] [VIEWBUILDER] [GROUP] [.containerRelativeFrame] [LABELSTYLE] [.titleAndIcon] [.monospacedDigit()] [Content] ->[RepositoryRow] ->[UserRow][AtyJ7t0I]
+// [AZCjC3pN] #SC/MN/2.4 [M.N - 2.4.3.2] [LineGrid] [VIEWBUILDER] [GROUP] [.containerRelativeFrame] [LABELSTYLE] [.titleAndIcon] [.monospacedDigit()] [Content] ->[RepositoryRow] ->[UserRow][AtyJ7t0I]
 
 import SwiftUI
 

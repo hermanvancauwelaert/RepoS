@@ -12,7 +12,7 @@
 //
 //  Created by Matteo Manferdini on 22/04/24.
 //
-// [0OE5QKJ3] [M.N 2.2]  [M.N 2.2.1] [ProfileView] [MODIFIER] [STYLE] [prominent] [RemoteToggle]
+// [0OE5QKJ3] [M.N 2.2] [M.N 2.2.1] [ProfileView] [MODIFIER] [STYLE] [prominent] [RemoteToggle]
 
 import SwiftUI
 

@@ -3,7 +3,7 @@
 //  RepoS
 //
 //  Created by Herman VAN CAUWELAERT on 25/08/2025.
-// [5q8uHzX7] [M.N 2.2.6.6] [RepositoryView] [RemoteToggle] [ReadmeSection]
+// [5q8uHzX7] [M.N 2.2] [M.N 2.2.6.6] [RepositoryView] [RemoteToggle] [ReadmeSection]
 
 
 import SwiftUI
